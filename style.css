@@ -1,0 +1,36 @@
+.static {
+    border: 5px solid rebeccapurple;
+    position: static;
+}
+
+.sticky {
+    border: 5px solid red;
+    position: sticky;
+    top: 0;
+}
+
+.fixed {
+    border: 5px solid blue;
+    position: fixed;
+    bottom: 0;
+}
+
+.relative {
+    border: 5px solid cadetblue;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute_parent {
+    border: 5px solid navy;
+    height: 50px;
+    position: relative;
+
+}
+
+.absolute {
+    border: 5px solid royalblue;
+    position: absolute;
+    top: 10px
+}
